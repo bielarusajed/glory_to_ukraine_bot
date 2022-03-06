@@ -29,7 +29,7 @@ async def on_glory_en(_: Client, message: Message):
 
 @app.on_message(~filters.edited)
 async def on_any(_: Client, message: Message):
-    if random.randint(1, 20) == 20:
+    if random.randint(1, 100) == 100:
         await message.reply('Слава Україні!')
 
 
